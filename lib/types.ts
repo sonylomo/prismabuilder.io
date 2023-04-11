@@ -41,6 +41,6 @@ export type Enum = {
   name: string;
 };
 
-export type PrismaDatabase = "postgresql" | "sqlite" | "mysql" | "sqlserver";
+export type PrismaDatabase = "postgresql" | "sqlite" | "mysql" | "sqlserver" | "mongodb";
 
 export type HeroIcon = React.ComponentType<React.SVGProps<SVGSVGElement>>;

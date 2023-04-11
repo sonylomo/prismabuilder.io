@@ -59,4 +59,5 @@ export const PRISMA_DATABASES: { label: string; value: PrismaDatabase }[] = [
   { label: "SQLite", value: "sqlite" },
   { label: "MySQL", value: "mysql" },
   { label: "SQLServer", value: "sqlserver" },
+  { label: "MongoDB", value: "mongodb" },
 ];
